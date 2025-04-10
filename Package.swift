@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "DashlySDK",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DashlySDK",
-            url: "https://github.com/carrotquest/dashly-ios-spm/releases/download/2.12.11/DashlySDK.xcframework.zip",
-            checksum: "43db97f3905e02e0c3dbd2d4b962e3060c2fd9a1808af50e6babfaf77bc299ae"
+            url: "https://github.com/carrotquest/dashly-ios-spm/releases/download/2.13.0/DashlySDK.xcframework.zip",
+            checksum: "d55f426302cf46928368afaea91bdcbd047cdb10c56b8002e25a15d450e23f82"
         ),
     ]
 )
