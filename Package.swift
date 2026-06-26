@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DashlySDK",
-            url: "https://github.com/carrotquest/dashly-ios-spm/releases/download/3.2.0/DashlySDK.xcframework.zip",
-            checksum: "d23ff44fa42c8da5f91dfa137d8224b5c7809ba8650471a5b40ed6c2169bae0a"
+            url: "https://github.com/carrotquest/dashly-ios-spm/releases/download/3.2.1/DashlySDK.xcframework.zip",
+            checksum: "0f18373f990b52095d62e260a15ee218ca6319407ab6c20079db1dc30d4a992f"
         ),
     ]
 )
